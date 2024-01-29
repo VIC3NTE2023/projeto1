@@ -209,7 +209,7 @@ footer {
 }
 
 #input_group button {
-  background-color: #dfd51f;
+  background-color: #08bb4a;
   border: none;
   color: var(--color-neutral-40);
   padding: 0px 1.25rem;
@@ -241,12 +241,28 @@ footer {
   #input_group{
     width: 300px;
   }
+  .voltar{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  #input_group button{
+    background-color: #08bb4a;
+    height: 60px;
+  }
 }
+
+
 
 @media screen and (max-width: 426px) {
   #footer_content {
       grid-template-columns: repeat(1, 1fr);
       padding: 3rem 2rem;
+      display: flex;
+      flex-direction: column-reverse;
+  }
+  .footer-list{
+    display: none;
   }
 }
 
