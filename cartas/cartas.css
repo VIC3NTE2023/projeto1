@@ -89,19 +89,13 @@ flex-direction: row-reverse;
 }
 
 .card .read-more {
-   background: linear-gradient(90deg, #a33030, #6a22ce);
+   background: linear-gradient(90deg, #adc60d, #22ce56);
    padding: 12px;
    color: #fff;
    text-decoration: none;
    border-radius: 8px;
    font-size: 20px;
 }
-
-
-
-
-
-
 
 /*Rodapé*/
 :root {
