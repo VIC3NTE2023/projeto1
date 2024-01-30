@@ -18,8 +18,10 @@
 
 
 body {
-    background-color: #484848;
+  background: linear-gradient(to bottom, #1f3b72, #031e51);
+  min-height: 100vh;
 }
+
 
 .voltar{
 display: flex;
@@ -263,8 +265,10 @@ footer {
 
 
 body.dark {
-  background: #08bb4a;
+   background: linear-gradient(to bottom, #6ab7f5, #fff);
+    min-height: 100vh;
 }
+
 
 .checkbox {
   opacity: 0;
