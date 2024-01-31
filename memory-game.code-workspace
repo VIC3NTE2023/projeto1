@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "memory-game",
+			"path": "../jogodamemoria/memory-game"
+		},
+		{
+			"name": "projeto1",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "projeto1"
+	}
+}
